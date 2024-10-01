@@ -3,3 +3,44 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: rgb(228, 228, 228);
+}
+
+/* HEADER */
+
+.header {
+    background-color: #fff;
+    width: 100vw;
+}
+
+.header div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header span {
+
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 30px;
+    font-weight: 700;
+    vertical-align: middle;
+}
+
+/* MAIN */
+
+main {
+    width: 80vw;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 20px 40px;
+    margin-top: 20px;
+}
+
+.btn-section div {
+    border: 1px solid #000;
+    display: inline-block;
+
+}
