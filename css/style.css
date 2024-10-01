@@ -39,8 +39,28 @@ main {
     margin-top: 20px;
 }
 
-.btn-section div {
-    border: 1px solid #000;
-    display: inline-block;
+/* BTN SECTION */
 
+.btn-section div {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.btn-section .btn-blue {
+    background-color: aqua;
+    color: #fff;
+}
+
+.btn-section .btn-white {
+    color: gray;
+    border: 1px solid gray;
+}
+
+/* LIST SECTION */
+
+
+
+li {
+    list-style: none;
 }
