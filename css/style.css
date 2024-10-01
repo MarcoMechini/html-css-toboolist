@@ -59,8 +59,25 @@ main {
 
 /* LIST SECTION */
 
+.list-section ul>li {
+    vertical-align: middle;
+}
 
+.rotate {
+    display: inline-block;
+    transform: rotate(90deg);
+}
 
 li {
     list-style: none;
+}
+
+.ballot-check {
+    border: 1px solid green;
+    color: green;
+}
+
+.ballot-x {
+    border: 1px solid red;
+    color: red;
 }
