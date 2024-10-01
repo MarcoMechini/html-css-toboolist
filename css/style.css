@@ -6,6 +6,20 @@
 
 body {
     background-color: #f6f8f9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* GENERAL */
+
+li {
+    list-style: none;
+}
+
+hr {
+    margin: 0 -40px;
+    background-color: #f6f8f9;
+    border: none;
+    height: 2px;
 }
 
 /* HEADER */
@@ -82,10 +96,6 @@ main {
 .rotate {
     display: inline-block;
     transform: rotate(90deg);
-}
-
-li {
-    list-style: none;
 }
 
 .ballot-check {
