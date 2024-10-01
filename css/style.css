@@ -43,7 +43,7 @@ main {
 
 .btn-section div {
     display: inline-block;
-    padding: 4px 8px;
+    padding: 6px 10px;
     border-radius: 4px;
 }
 
@@ -59,8 +59,24 @@ main {
 
 /* LIST SECTION */
 
+.list-section {
+    padding: 20px 0;
+}
+
+.gap {
+    padding: 8px 0;
+}
+
+.gap>span {
+    margin: 0 2px;
+}
+
 .list-section ul>li {
     vertical-align: middle;
+}
+
+.paragraph {
+    padding: 8px 0;
 }
 
 .rotate {
@@ -95,7 +111,8 @@ li {
 .labels {
     color: #fff;
     font-size: 10px;
-
+    padding: 4px 6px;
+    border-radius: 8px;
 }
 
 .lab-edit {
@@ -110,7 +127,7 @@ li {
     background-color: #64c0a9;
 }
 
-.ballot-check {
+.lab-mob {
     background-color: #f29e33;
 }
 
