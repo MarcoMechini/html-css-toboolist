@@ -51,6 +51,7 @@ main {
     margin: 0 auto;
     padding: 20px 40px;
     margin-top: 20px;
+    border-radius: 4px;
 }
 
 /* BTN SECTION */
@@ -109,11 +110,12 @@ main {
 }
 
 .bord-circ {
-    width: 10px;
-    height: 10px;
-    padding: 2px;
+    width: 16px;
+    height: 16px;
     font-size: 10px;
     border-radius: 50%;
+    padding-left: 3px;
+    display: inline-block;
 }
 
 /* LABELS */
