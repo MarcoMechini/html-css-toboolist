@@ -16,7 +16,7 @@ li {
 }
 
 hr {
-    margin: 0 -40px;
+    margin: 10px -40px 0;
     background-color: #f6f8f9;
     border: none;
     height: 2px;
@@ -47,6 +47,7 @@ hr {
 
 main {
     width: 80vw;
+    max-width: 800px;
     background-color: #fff;
     margin: 0 auto;
     padding: 20px 40px;
@@ -118,11 +119,15 @@ main {
     display: inline-block;
 }
 
+.text {
+    font-size: 16px;
+}
+
 /* LABELS */
 
 .labels {
     color: #fff;
-    font-size: 10px;
+    font-size: 8px;
     padding: 4px 6px;
     border-radius: 8px;
 }
